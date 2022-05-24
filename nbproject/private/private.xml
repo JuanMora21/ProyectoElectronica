@@ -3,7 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Ricardo/A%20Universidad/7mo%20SEMESTRE/Electronica/ProyectoElectronica/src/G/U/I/VentanaPrincipal.java</file>
+            <file>file:/D:/Ricardo/A%20Universidad/7mo%20SEMESTRE/Electronica/electronicav2/ProyectoElectronica/src/ClasesArchivos/LectorEscritorTextoPlano.java</file>
+            <file>file:/D:/Ricardo/A%20Universidad/7mo%20SEMESTRE/Electronica/electronicav2/ProyectoElectronica/src/ClasesProcesador/Dato.java</file>
+            <file>file:/D:/Ricardo/A%20Universidad/7mo%20SEMESTRE/Electronica/electronicav2/ProyectoElectronica/src/ClasesProcesador/Variable.java</file>
+            <file>file:/D:/Ricardo/A%20Universidad/7mo%20SEMESTRE/Electronica/electronicav2/ProyectoElectronica/src/ClasesProcesador/Registro.java</file>
         </group>
     </open-files>
 </project-private>

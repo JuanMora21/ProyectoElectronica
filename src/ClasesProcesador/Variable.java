@@ -1,14 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ClasesProcesador;
 
-/**
- *
- * @author Ricardo
- */
-public class Variable {
+public class Variable extends Dato {
+    int valorDecimal;
+    
+    public Variable(String nombre, String valorBinario, float valor, int valorDecimal) {
+        super(nombre, valorBinario, valor);
+        setValorDecimal(valorDecimal);
+    }
+
+    public int getValorDecimal() {
+        return valorDecimal;
+    }
+
+    public void setValorDecimal(int valorDecimal) {
+        this.valorDecimal = valorDecimal;
+    }
     
 }

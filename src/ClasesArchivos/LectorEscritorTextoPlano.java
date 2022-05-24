@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ClasesArchivos;
 
 import java.io.BufferedReader;
@@ -18,11 +13,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JFileChooser;
 
-/**
- *
- * @author juani
- */
-public class LectorEscritorTextoPlano implements Lector,Escritor{
+public class LectorEscritorTextoPlano implements Lector{
     @Override
     public File seleccionarArchivo() {
         File archivo;
@@ -73,11 +64,11 @@ public class LectorEscritorTextoPlano implements Lector,Escritor{
 
 
     @Override
-    public void escribirGuardarArchivo(ArrayList<String> textoConjunto, String nombreArchivo) {
-        String result = "";
+    public void escribirGuardarArchivo(String result, String nombreArchivo) {
+        /*String result = "";
         for(int i = 0; i < textoConjunto.size(); i++){
             result += textoConjunto.get(i) + "\n";
-        }
+        }*/
         
         try {
             Charset charset = Charset.forName("UTF-8");
